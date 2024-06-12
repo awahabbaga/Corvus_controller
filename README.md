@@ -31,5 +31,14 @@ Sending Venus-1 commands to Corvus high resolution positioning controller by Ser
 
 ## Venus-1 commands
 
+- The command **move** positions all active axes to the given
+coordinates `[Axis-1 ] [Axis-2] [Axis-3] move`. For this program, you have to select the command `move` first and then specify the axes `[Axis-1 ] [Axis-2] [Axis-3]` for multiple move executions.
+
+- The command **cal** triggers the limit switch movement to the
+cal-endswitches. In other words, positioning all active axes to 0.
+
+- The complete list of Venus-1 commands is available [Venus-1
+Command language](https://www.marzhauser.com/fileadmin/Dateien/Downloadbereich/Steuerungen/Corvus/Corvus_Venus-1_Handbook_1.07.pdf)
+
 
 
